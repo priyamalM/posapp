@@ -1,1 +1,7 @@
+com/project/pos/controllers/CategoryController.class
+com/project/pos/controllers/SupplierController.class
+com/project/pos/controllers/ProductController.class
+com/project/pos/controllers/CustomersController.class
+com/project/pos/controllers/InvoiceController.class
 com/project/pos/SpringApplication.class
+com/project/pos/controllers/GrnController.class

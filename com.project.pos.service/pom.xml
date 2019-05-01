@@ -11,5 +11,12 @@
 
     <artifactId>com.project.pos.service</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.project.pos</groupId>
+            <artifactId>com.project.pos.jpamodels</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>
