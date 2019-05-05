@@ -1,9 +1,12 @@
 com/project/pos/model/Customer.class
 com/project/pos/model/Customerdebt.class
+com/project/pos/model/types/InvType.class
 com/project/pos/model/Product.class
+com/project/pos/model/types/PayType.class
 com/project/pos/model/Category.class
 com/project/pos/model/Grnreg.class
 com/project/pos/model/Invoice.class
+com/project/pos/model/request/InvoiceRequest.class
 com/project/pos/model/Grn.class
 com/project/pos/model/Invoicereg.class
 com/project/pos/model/Supplier.class

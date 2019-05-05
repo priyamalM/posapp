@@ -1,5 +1,7 @@
 package com.project.pos.model;
 
+import com.project.pos.model.types.InvType;
+import com.project.pos.model.types.PayType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -28,11 +30,13 @@ public class Invoice implements Serializable {
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date date;
 
-	private String invtype;
+	@Enumerated(EnumType.STRING)
+	private InvType invtype;
 
 	private double paid;
 
-	private String paytype;
+	@Enumerated(EnumType.STRING)
+	private PayType paytype;
 
 	private double remain;
 

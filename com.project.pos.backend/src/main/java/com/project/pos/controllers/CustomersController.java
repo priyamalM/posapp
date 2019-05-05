@@ -26,7 +26,7 @@ public class CustomersController {
     }
 
     @PostMapping("/{id}/adddebt")
-    public Customerdebt addDebt(@RequestBody Customerdebt customerdebt,@PathVariable("id") int id){
+    public Customerdebt addDebt(@RequestBody Customerdebt customerdebt, @PathVariable("id") int id){
         return customerService.addDebt(customerdebt,id);
     }
 
